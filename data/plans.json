@@ -1,0 +1,526 @@
+{
+  "meta": {
+    "disclosure": "Sample output. These production plans were written in advance for the ShowStop demo. No AI model generates them at runtime.",
+    "label": "Sample plan",
+    "createdAt": "2026-11-05",
+    "decisions": [
+      "D02",
+      "D07"
+    ],
+    "sections": [
+      "angle",
+      "hook",
+      "keep",
+      "twist",
+      "structure",
+      "shots",
+      "assets",
+      "nextSteps",
+      "hookAlternatives"
+    ],
+    "customProfileNote": "You edited the profile, so this sample plan was written for the closest sample creator. A live version would use your details."
+  },
+  "plans": [
+    {
+      "trendId": "three-ways",
+      "creatorId": "maya",
+      "angle": "One $1 can of chickpeas, three dinners for a broke week.",
+      "hook": "\"This can cost me a dollar. It's about to be three dinners.\"",
+      "keep": [
+        "Three uses, counted on screen",
+        "The can in the first frame"
+      ],
+      "twist": "Show the price per meal on screen after each use.",
+      "structure": [
+        "0–2s: can on the counter, hook as voiceover",
+        "2–10s: crispy roasted chickpeas",
+        "10–18s: chickpea curry in one pan",
+        "18–25s: smashed chickpea sandwich",
+        "25–30s: three plates side by side, total cost"
+      ],
+      "shots": [
+        "Top-down of the can on the counter",
+        "Close-up of chickpeas hitting the pan",
+        "Overhead of each finished plate",
+        "Wide of all three plates together"
+      ],
+      "assets": [
+        "1 can of chickpeas",
+        "Spices already in the kitchen",
+        "Bread for the sandwich",
+        "Price captions prepared in advance"
+      ],
+      "nextSteps": [
+        "Book a 45-minute slot in the shared kitchen",
+        "Record the voiceover after filming",
+        "Pin a comment with the three recipes"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "\"$1. Three dinners. Watch.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "\"Broke week? This one can feeds you three times.\""
+        }
+      ]
+    },
+    {
+      "trendId": "three-ways",
+      "creatorId": "jordan",
+      "angle": "One $8 thrifted mirror, three looks for a tiny entryway.",
+      "hook": "\"I paid $8 for this mirror. Here are three ways to make it look expensive.\"",
+      "keep": [
+        "Three looks, counted on screen",
+        "The mirror alone in the first frame"
+      ],
+      "twist": "Every look is renter-safe and labelled 'no holes'.",
+      "structure": [
+        "0–2s: mirror held up, hook as text",
+        "2–9s: leaning on the floor with a plant",
+        "9–17s: hung on a removable hook above a stool",
+        "17–25s: propped on a shelf with books",
+        "25–30s: quick cuts of all three, 'which one?'"
+      ],
+      "shots": [
+        "Mirror held to camera",
+        "Tripod wide of the entryway for each look",
+        "Close-up of the removable hook",
+        "Same framing for all three looks"
+      ],
+      "assets": [
+        "Thrifted mirror",
+        "Removable adhesive hooks",
+        "Plant, stool and books already at home"
+      ],
+      "nextSteps": [
+        "Shoot in afternoon light",
+        "Ask viewers to vote for a look in the caption",
+        "Save the vote result as the next video idea"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "\"$8 mirror, three looks, zero holes.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "\"Your entryway needs one thrifted mirror. Here's how to use it three ways.\""
+        }
+      ]
+    },
+    {
+      "trendId": "day-1-day-30",
+      "creatorId": "maya",
+      "angle": "Day 1 vs Day 30 of cooking every dinner for under $3.",
+      "hook": "\"Day 1, I burned rice. Day 30, I made this for $2.80.\"",
+      "keep": [
+        "Day labels on screen",
+        "The same pan and camera angle both times"
+      ],
+      "twist": "Add the cost per plate under each day label.",
+      "structure": [
+        "0–3s: Day 1 plate, hook",
+        "3–15s: quick montage of days in between",
+        "15–25s: Day 30 dish being plated",
+        "25–30s: both plates side by side"
+      ],
+      "shots": [
+        "Fixed overhead of the same pan, Day 1 and Day 30",
+        "Short clips from days in between",
+        "Final side-by-side"
+      ],
+      "assets": [
+        "Day 1 footage (needs filming now)",
+        "A simple daily clip habit",
+        "Cost tracking note"
+      ],
+      "nextSteps": [
+        "Check whether any early cooking footage exists",
+        "If not, film Day 1 today and plan the series",
+        "Decide which dish will be the Day 30 reveal"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "\"30 days of $3 dinners. Here's what changed.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "\"I couldn't cook a month ago. Watch Day 1 vs Day 30.\""
+        }
+      ]
+    },
+    {
+      "trendId": "day-1-day-30",
+      "creatorId": "jordan",
+      "angle": "Day 1 vs Day 30 in a 300 sq ft rental, with no permanent changes.",
+      "hook": "\"Move-in day vs 30 days later. My landlord won't even notice.\"",
+      "keep": [
+        "Day labels on screen",
+        "Identical camera position"
+      ],
+      "twist": "End with the total spent and a 'renter-safe' badge.",
+      "structure": [
+        "0–3s: empty room, Day 1 label",
+        "3–20s: fast clips of each change",
+        "20–27s: Day 30 reveal from the same spot",
+        "27–30s: total cost on screen"
+      ],
+      "shots": [
+        "Tripod in a marked spot, Day 1",
+        "Close-ups of each renter-safe change",
+        "Tripod in the same spot, Day 30"
+      ],
+      "assets": [
+        "Day 1 footage",
+        "Tape mark for the tripod position",
+        "List of changes and costs"
+      ],
+      "nextSteps": [
+        "Mark the tripod spot today",
+        "Film a short clip after each change",
+        "Schedule the Day 30 shoot for an afternoon"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "\"Same rental, 30 days apart.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "\"I changed this room for a month without a single nail.\""
+        }
+      ]
+    },
+    {
+      "trendId": "silent-process",
+      "creatorId": "maya",
+      "angle": "A quiet 10-minute dinner after class, no talking.",
+      "hook": "Caption: \"10-minute dinner. No talking. Just the pan.\"",
+      "keep": [
+        "Natural sound only",
+        "Short captions for each step",
+        "Close, steady shots"
+      ],
+      "twist": "One caption at the end with the full cost and time.",
+      "structure": [
+        "0–2s: hands set down a bag of groceries",
+        "2–20s: chop, sizzle, stir, each with one caption",
+        "20–27s: plating",
+        "27–30s: first bite, cost caption"
+      ],
+      "shots": [
+        "Close-up of hands chopping",
+        "Pan close-up for the sizzle",
+        "Overhead of plating",
+        "Steady shot of the finished plate"
+      ],
+      "assets": [
+        "Phone stand or stack of books",
+        "A quiet filming slot",
+        "Captions written before editing"
+      ],
+      "nextSteps": [
+        "Find the quietest time in the shared kitchen",
+        "Record a 10-second sound test first",
+        "Write captions before editing"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "Caption: \"No talking. Dinner in 10.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "Caption: \"After class, I just want a quiet dinner.\""
+        }
+      ]
+    },
+    {
+      "trendId": "silent-process",
+      "creatorId": "jordan",
+      "angle": "A silent Saturday thrift-to-shelf makeover.",
+      "hook": "Caption: \"$12 thrift haul. No talking. Watch it become a shelf.\"",
+      "keep": [
+        "Natural sound only",
+        "Short captions for each step"
+      ],
+      "twist": "Add one caption explaining each design choice, since makeover viewers want the reason.",
+      "structure": [
+        "0–3s: thrift bag emptied onto the floor",
+        "3–20s: cleaning, arranging, adjusting",
+        "20–27s: shelf styled",
+        "27–30s: wide reveal with cost"
+      ],
+      "shots": [
+        "Overhead of the haul",
+        "Close-ups of hands cleaning and placing",
+        "Tripod wide of the shelf"
+      ],
+      "assets": [
+        "Thrifted items",
+        "Cleaning cloth",
+        "Tripod"
+      ],
+      "nextSteps": [
+        "Shoot in afternoon light",
+        "Write one 'why' caption per step",
+        "Test whether captions are readable on a phone"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "Caption: \"Thrift bag to shelf. No words.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "Caption: \"A quiet Saturday makeover for $12.\""
+        }
+      ]
+    },
+    {
+      "trendId": "stopped-buying",
+      "creatorId": "maya",
+      "angle": "5 grocery things I stopped buying as a broke student, and what I make instead.",
+      "hook": "\"I stopped buying these five things and saved about $40 a month.\"",
+      "keep": [
+        "A numbered list",
+        "One reason per item",
+        "What to make instead"
+      ],
+      "twist": "Show the homemade swap next to each item instead of only talking about it.",
+      "structure": [
+        "0–3s: hook over all five items",
+        "3–25s: one item every ~4s, with its swap",
+        "25–30s: 'what would you add?'"
+      ],
+      "shots": [
+        "All five items lined up",
+        "Each item, then its homemade swap",
+        "Final shot of all the swaps"
+      ],
+      "assets": [
+        "The five items or their packaging",
+        "The five swaps",
+        "Savings estimate to check before posting"
+      ],
+      "nextSteps": [
+        "Check the $40 figure against real receipts before using it",
+        "Avoid naming brands negatively",
+        "Reply to comments with a follow-up list"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "\"Five things broke students should stop buying.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "\"I quit buying these five things. Here's what I make instead.\""
+        }
+      ]
+    },
+    {
+      "trendId": "stopped-buying",
+      "creatorId": "jordan",
+      "angle": "Decor I stopped buying new as a renter.",
+      "hook": "\"Five things I'll never buy new again for my apartment.\"",
+      "keep": [
+        "A numbered list",
+        "One reason per item"
+      ],
+      "twist": "Pair each item with the thrifted version and its price.",
+      "structure": [
+        "0–3s: hook in the room",
+        "3–25s: five items, new price vs thrift price",
+        "25–30s: total saved"
+      ],
+      "shots": [
+        "Wide of the room",
+        "Close-up of each thrifted item",
+        "Price captions"
+      ],
+      "assets": [
+        "Five thrifted items",
+        "Typical new prices to check"
+      ],
+      "nextSteps": [
+        "Check that renters relate to the chosen items",
+        "Confirm new-price comparisons",
+        "Ask viewers which item to find next"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "\"Stop buying these new for your apartment.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "\"Five things I only buy secondhand now.\""
+        }
+      ]
+    },
+    {
+      "trendId": "pov-moved-in",
+      "creatorId": "maya",
+      "angle": "POV: your first dinner in a new kitchen with one pan.",
+      "hook": "Caption: \"POV: you just moved in and own one pan.\"",
+      "keep": [
+        "POV caption in the first frame",
+        "Eye-level filming"
+      ],
+      "twist": "Turn the empty kitchen into a first-meal story, not a move-in story.",
+      "structure": [
+        "0–3s: empty cupboard, POV caption",
+        "3–22s: cooking with only one pan",
+        "22–30s: eating on the floor or counter"
+      ],
+      "shots": [
+        "Eye-level shot of the empty cupboard",
+        "One-pan cooking close-ups",
+        "Final plate at eye level"
+      ],
+      "assets": [
+        "One pan",
+        "Simple ingredients"
+      ],
+      "nextSteps": [
+        "Weak fit: decide whether this is worth filming",
+        "If yes, keep it as a one-off rather than a series"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "Caption: \"POV: one pan, empty cupboards, first dinner.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "Caption: \"POV: your first meal in a kitchen with nothing.\""
+        }
+      ]
+    },
+    {
+      "trendId": "pov-moved-in",
+      "creatorId": "jordan",
+      "angle": "POV: you just moved into a 300 sq ft studio with $40.",
+      "hook": "Caption: \"POV: you just moved in. You have $40 and no furniture.\"",
+      "keep": [
+        "POV caption in the first frame",
+        "Viewer's eye-level filming"
+      ],
+      "twist": "Make the budget the story: each item bought appears with a running total.",
+      "structure": [
+        "0–3s: empty room at eye level, caption",
+        "3–22s: each purchase with running total",
+        "22–30s: room with $0 left"
+      ],
+      "shots": [
+        "Eye-level walk into the empty room",
+        "Each item placed, with the total on screen",
+        "Final eye-level view"
+      ],
+      "assets": [
+        "$40 budget",
+        "Running-total captions",
+        "Tripod at eye height"
+      ],
+      "nextSteps": [
+        "Because the format is fading, make the $40 budget very visible",
+        "Film the walk-in shot first",
+        "Consider a part 2 if comments ask"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "Caption: \"POV: $40, an empty studio, go.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "Caption: \"POV: you moved in today and own nothing.\""
+        }
+      ]
+    },
+    {
+      "trendId": "rate-it-honestly",
+      "creatorId": "maya",
+      "angle": "Rating cheap dorm dinners honestly, episode 1.",
+      "hook": "\"I tried the cheapest dinner hack online. Honest rating at the end.\"",
+      "keep": [
+        "Score at the end",
+        "Episode number"
+      ],
+      "twist": "Rate on taste and cost per plate, two scores.",
+      "structure": [
+        "0–3s: hook and episode number",
+        "3–20s: making the dish",
+        "20–27s: tasting (hands and plate only)",
+        "27–30s: two scores on screen"
+      ],
+      "shots": [
+        "Episode title card",
+        "Cooking close-ups",
+        "Fork lifting a bite",
+        "Score caption"
+      ],
+      "assets": [
+        "Episode title template",
+        "Scoring caption template"
+      ],
+      "nextSteps": [
+        "Decide whether to show reactions or keep it hands-only",
+        "Collect suggestions for episode 2 from comments"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "\"Cheapest dinner hack, rated honestly. Episode 1.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "\"Is this $2 dinner actually good? Honest score.\""
+        }
+      ]
+    },
+    {
+      "trendId": "rate-it-honestly",
+      "creatorId": "jordan",
+      "angle": "Rating my thrift finds honestly, episode 1.",
+      "hook": "\"I rate everything I thrifted this week. Honest scores.\"",
+      "keep": [
+        "Score at the end of each item",
+        "Episode number"
+      ],
+      "twist": "Score each find on how well it works in a small space.",
+      "structure": [
+        "0–3s: haul and episode number",
+        "3–25s: each item placed in the room, then scored",
+        "25–30s: best find of the week"
+      ],
+      "shots": [
+        "Haul overhead",
+        "Each item in place",
+        "Score caption"
+      ],
+      "assets": [
+        "This week's thrift finds",
+        "Scoring caption template"
+      ],
+      "nextSteps": [
+        "Weak fit: test one episode before committing to a series",
+        "Check whether it shows enough makeover skill"
+      ],
+      "hookAlternatives": [
+        {
+          "label": "Shorter",
+          "text": "\"This week's thrift finds, scored honestly.\""
+        },
+        {
+          "label": "Speak to the viewer",
+          "text": "\"Did I overpay for these thrift finds? Honest ratings.\""
+        }
+      ]
+    }
+  ]
+}

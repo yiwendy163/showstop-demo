@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "disclosure": "Illustrative sample trends written for the ShowStop demo. They describe common short-video formats in general terms. They are not real posts, creators or measurements, and every signal is a qualitative illustration.",
+    "label": "Sample trend",
+    "platform": "TikTok",
+    "observationWindow": "Illustrative. No observation period was measured.",
+    "createdAt": "2026-11-05",
+    "decisions": [
+      "D04",
+      "D13"
+    ],
+    "stages": {
+      "emerging": "Few creators use it yet. Early, but the format is still unproven.",
+      "rising": "Spreading across niches. A good time to adapt it.",
+      "peaking": "Widely used. Needs a strong twist to stand out.",
+      "fading": "Viewers have seen it often. Use only with a clear reason."
+    },
+    "media": {
+      "video": "Short vertical video. In the demo, video items are described, not playable."
+    }
+  },
+  "trends": [
+    {
+      "id": "three-ways",
+      "title": "One thing, three ways",
+      "format": "Fast list",
+      "stage": "rising",
+      "niches": [
+        "Food",
+        "Home",
+        "Style"
+      ],
+      "summary": "A creator takes one everyday item and shows three different uses in under 30 seconds.",
+      "whyItWorks": "The promise is clear in the first second, each use is a small payoff, and viewers save it to try later.",
+      "examples": [
+        "One can of chickpeas turned into three meals",
+        "One scarf styled three ways",
+        "One shelf arranged three ways"
+      ],
+      "keep": [
+        "The number three in the hook",
+        "One item on screen at the start",
+        "A quick cut between each use"
+      ],
+      "signals": [
+        {
+          "label": "Spread",
+          "value": "Seen across several niches",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Viewer response",
+          "value": "Comments ask for a fourth way",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Effort to make",
+          "value": "Low",
+          "note": "Illustrative"
+        }
+      ],
+      "limits": "Saves and comments are described, not counted. Works best when each use is genuinely different.",
+      "fit": {
+        "maya": {
+          "level": "strong",
+          "reasons": [
+            "Budget ingredients stretched three ways match Maya's audience",
+            "Each use can be filmed in one short session"
+          ],
+          "unknowns": [
+            "Whether Maya's audience prefers full recipes or quick ideas"
+          ]
+        },
+        "jordan": {
+          "level": "strong",
+          "reasons": [
+            "One thrifted item styled three ways suits small spaces",
+            "No permanent changes needed"
+          ],
+          "unknowns": [
+            "Whether one item gives enough visual change on camera"
+          ]
+        }
+      },
+      "media": "video",
+      "keywords": "cheap budget dinner meal food recipe cook one ingredient three ways roommates student style decor mirror"
+    },
+    {
+      "id": "day-1-day-30",
+      "title": "Day 1 vs Day 30",
+      "format": "Before and after",
+      "stage": "peaking",
+      "niches": [
+        "Home",
+        "Skills",
+        "Fitness"
+      ],
+      "summary": "A split or jump cut compares the first attempt with the result after a month of practice or change.",
+      "whyItWorks": "Progress is satisfying to watch, and the contrast does the storytelling.",
+      "examples": [
+        "A room on move-in day and a month later",
+        "A first and thirtieth attempt at the same dish"
+      ],
+      "keep": [
+        "The day labels on screen",
+        "The same camera angle for both shots"
+      ],
+      "signals": [
+        {
+          "label": "Spread",
+          "value": "Very common",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Viewer response",
+          "value": "Comments ask how",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Effort to make",
+          "value": "High, needs planning a month ahead",
+          "note": "Illustrative"
+        }
+      ],
+      "limits": "A peaking format needs a twist. Requires footage from the start, which a creator may not have.",
+      "fit": {
+        "maya": {
+          "level": "possible",
+          "reasons": [
+            "Learning to cook on a budget is a natural progress story"
+          ],
+          "unknowns": [
+            "Whether Maya has Day 1 footage",
+            "Whether a month of daily cooking fits Maya's schedule"
+          ]
+        },
+        "jordan": {
+          "level": "strong",
+          "reasons": [
+            "Room makeovers are a natural before and after",
+            "Afternoon light keeps both shots consistent"
+          ],
+          "unknowns": [
+            "Whether a current project already has before footage"
+          ]
+        }
+      },
+      "media": "video",
+      "keywords": "progress month before after room makeover learn skill change"
+    },
+    {
+      "id": "silent-process",
+      "title": "Silent process",
+      "format": "No-talking process video",
+      "stage": "rising",
+      "niches": [
+        "Food",
+        "Crafts",
+        "Home"
+      ],
+      "summary": "A calm, wordless video of a task from start to finish, with natural sound and short captions.",
+      "whyItWorks": "It is relaxing, watchable without sound on, and keeps the focus on the hands and the result.",
+      "examples": [
+        "Cooking dinner with only kitchen sounds",
+        "Repotting a plant with captions for each step"
+      ],
+      "keep": [
+        "No voice or music over the natural sound",
+        "Short captions for key steps",
+        "Close, steady shots"
+      ],
+      "signals": [
+        {
+          "label": "Spread",
+          "value": "Growing in calm niches",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Viewer response",
+          "value": "Comments describe it as relaxing",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Effort to make",
+          "value": "Medium, needs clean audio",
+          "note": "Illustrative"
+        }
+      ],
+      "limits": "Noisy spaces make it harder. Captions must carry the key information.",
+      "fit": {
+        "maya": {
+          "level": "strong",
+          "reasons": [
+            "Maya prefers not to talk on camera",
+            "Cooking sounds are part of the appeal"
+          ],
+          "unknowns": [
+            "How loud the shared kitchen is during filming windows"
+          ]
+        },
+        "jordan": {
+          "level": "possible",
+          "reasons": [
+            "Makeover steps can be shown without talking"
+          ],
+          "unknowns": [
+            "Whether makeover viewers want the reasoning behind choices"
+          ]
+        }
+      },
+      "media": "video",
+      "keywords": "calm quiet no talking silent relaxing asmr process captions shy"
+    },
+    {
+      "id": "stopped-buying",
+      "title": "Things I stopped buying",
+      "format": "Honest list",
+      "stage": "peaking",
+      "niches": [
+        "Money",
+        "Food",
+        "Home"
+      ],
+      "summary": "A creator lists things they no longer buy and what they do instead.",
+      "whyItWorks": "It feels honest and useful, and viewers compare it with their own habits in the comments.",
+      "examples": [
+        "Grocery items swapped for cheaper staples",
+        "Decor items replaced with thrifted ones"
+      ],
+      "keep": [
+        "A numbered list",
+        "One reason per item",
+        "What to do instead"
+      ],
+      "signals": [
+        {
+          "label": "Spread",
+          "value": "Common in money and home niches",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Viewer response",
+          "value": "Comments debate the list",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Effort to make",
+          "value": "Low",
+          "note": "Illustrative"
+        }
+      ],
+      "limits": "Peaking, so a specific angle matters. Avoid naming brands negatively.",
+      "fit": {
+        "maya": {
+          "level": "strong",
+          "reasons": [
+            "Budget swaps are exactly Maya's audience's problem",
+            "Easy to film with items already in the kitchen"
+          ],
+          "unknowns": [
+            "Whether Maya wants to say what not to buy rather than what to cook"
+          ]
+        },
+        "jordan": {
+          "level": "possible",
+          "reasons": [
+            "Thrift-first habits fit the list"
+          ],
+          "unknowns": [
+            "Whether renters relate to the items chosen"
+          ]
+        }
+      },
+      "media": "video",
+      "keywords": "save money budget cheap swap stopped buying groceries thrift honest list"
+    },
+    {
+      "id": "pov-moved-in",
+      "title": "POV: you just moved in",
+      "format": "POV text story",
+      "stage": "fading",
+      "niches": [
+        "Home",
+        "Lifestyle"
+      ],
+      "summary": "On-screen text puts the viewer in a situation, here an empty new place, and the video shows what happens next.",
+      "whyItWorks": "Viewers place themselves in the story, and the text hook works without sound.",
+      "examples": [
+        "POV: you just moved into a studio with no furniture"
+      ],
+      "keep": [
+        "The POV caption in the first frame",
+        "Filming from the viewer's eye level"
+      ],
+      "signals": [
+        {
+          "label": "Spread",
+          "value": "Familiar to most viewers",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Viewer response",
+          "value": "Less novel than before",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Effort to make",
+          "value": "Low",
+          "note": "Illustrative"
+        }
+      ],
+      "limits": "Fading. Use it only if the situation itself is fresh or very specific.",
+      "fit": {
+        "maya": {
+          "level": "weak",
+          "reasons": [
+            "Moving in is not Maya's topic"
+          ],
+          "unknowns": [
+            "A 'first meal in a new kitchen' version might work, but it would be a different story"
+          ]
+        },
+        "jordan": {
+          "level": "strong",
+          "reasons": [
+            "Empty rental rooms are Jordan's starting point",
+            "Directly speaks to renters"
+          ],
+          "unknowns": [
+            "Whether the fading stage reduces interest"
+          ]
+        }
+      },
+      "media": "video",
+      "keywords": "moved new apartment studio rental empty room pov renter"
+    },
+    {
+      "id": "rate-it-honestly",
+      "title": "Rate it honestly",
+      "format": "Rating series",
+      "stage": "emerging",
+      "niches": [
+        "Food",
+        "Products"
+      ],
+      "summary": "A creator tries something and gives an honest score out of ten, often as a numbered series.",
+      "whyItWorks": "A score is an easy payoff to wait for, and a series brings viewers back.",
+      "examples": [
+        "Rating cheap dorm snacks out of ten",
+        "Rating viral recipes honestly"
+      ],
+      "keep": [
+        "The score revealed at the end",
+        "Episode numbers for a series"
+      ],
+      "signals": [
+        {
+          "label": "Spread",
+          "value": "Still early",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Viewer response",
+          "value": "Comments suggest what to rate next",
+          "note": "Illustrative"
+        },
+        {
+          "label": "Effort to make",
+          "value": "Low per episode",
+          "note": "Illustrative"
+        }
+      ],
+      "limits": "Emerging, so the payoff is uncertain. Ratings of named products need care.",
+      "fit": {
+        "maya": {
+          "level": "possible",
+          "reasons": [
+            "Rating budget recipes suits a series"
+          ],
+          "unknowns": [
+            "Whether Maya wants to appear on camera for reactions"
+          ]
+        },
+        "jordan": {
+          "level": "weak",
+          "reasons": [
+            "Rating does not show Jordan's makeover skills"
+          ],
+          "unknowns": [
+            "A 'rating my thrift finds' version might work"
+          ]
+        }
+      },
+      "media": "video",
+      "keywords": "rate review score honest try test snacks series reaction"
+    }
+  ]
+}

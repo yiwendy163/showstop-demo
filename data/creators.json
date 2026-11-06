@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "disclosure": "Sample creators written for the ShowStop demo. They are personas, not real people or research participants.",
+    "createdAt": "2026-11-05",
+    "decisions": ["D09"]
+  },
+  "creators": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "label": "Sample creator",
+      "niche": "Budget cooking",
+      "audience": "College students cooking in small shared kitchens",
+      "goal": "Grow followers who save and come back to recipes",
+      "resources": ["Phone camera", "One pan and a microwave", "About an hour a day to film", "Phone editing app"],
+      "constraints": ["Prefers voiceover to talking on camera", "Shared kitchen, so short filming windows"]
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "label": "Sample creator",
+      "niche": "Small-space home and thrift makeovers",
+      "audience": "Renters in small apartments",
+      "goal": "Get comments and requests for the next makeover",
+      "resources": ["Phone and tripod", "Weekend shooting time", "About $40 per project"],
+      "constraints": ["Renting, so no permanent changes", "Natural light only in the afternoon"]
+    }
+  ]
+}
