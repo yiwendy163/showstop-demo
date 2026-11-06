@@ -160,7 +160,7 @@ export default function Landing() {
       </main>
       <footer className="footer">
         <div className="wrap">
-          <p><strong>About this demo.</strong> A portfolio redesign of ShowStop by Yi Wang. Trends and plans are illustrative samples written for the demo, not live data, real posts or live AI. Your profile and plans stay in this browser.</p>
+          <p><strong>About this demo.</strong> A design demo of ShowStop by Yi Wang. Trends and plans are illustrative samples written for the demo, not live data, real posts or live AI. Your profile and plans stay in this browser.</p>
         </div>
       </footer>
     </div>
