@@ -8,12 +8,15 @@ const reduceMotion = () => typeof window !== 'undefined' && window.matchMedia('(
 export function PromptBox({ target = 'trends', label = 'What do you want to film this week?', id = 'hero-prompt' }) {
   const [value, setValue] = useState('')
   const [hint, setHint] = useState(IDEAS[0])
+  const [rotate, setRotate] = useState(!reduceMotion())
+  // Example placeholders rotate once through the list and stop within 5 seconds (2.2.2),
+  // and stop at once when the visitor focuses or points at the prompt.
   useEffect(() => {
-    if (reduceMotion()) return
+    if (!rotate) return
     let i = 0
-    const t = setInterval(() => { i = (i + 1) % IDEAS.length; setHint(IDEAS[i]) }, 3200)
+    const t = setInterval(() => { i += 1; setHint(IDEAS[i]); if (i >= IDEAS.length - 1) clearInterval(t) }, 2400)
     return () => clearInterval(t)
-  }, [])
+  }, [rotate])
   const go = (q) => {
     const idea = (q ?? value).trim()
     if (!idea) { document.getElementById(id)?.focus(); return }
@@ -21,12 +24,12 @@ export function PromptBox({ target = 'trends', label = 'What do you want to film
     navigate(target === 'trends' ? `/trends?q=${enc}` : `/${target}?q=${enc}`)
   }
   return (
-    <form className="prompt" onSubmit={(e) => { e.preventDefault(); go() }} role="search" aria-label="Find trends for your idea">
+    <form className="prompt" onFocus={() => setRotate(false)} onPointerEnter={() => setRotate(false)} onSubmit={(e) => { e.preventDefault(); go() }} role="search" aria-label="Find trends for your idea">
       <label htmlFor={id} className="sr-only">{label}</label>
       <textarea id={id} rows={2} value={value} onChange={(e) => setValue(e.target.value)} placeholder={`e.g. ${hint}`}
         onKeyDown={(e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); go() } }} />
       <div className="prompt-bar">
-        <div className="row prompt-chips" aria-label="Example ideas">
+        <div className="row prompt-chips" role="group" aria-label="Example ideas">
           {IDEAS.slice(1).map((i) => <button key={i} type="button" className="chip" onClick={() => go(i)}>{i}</button>)}
         </div>
         <button type="submit" className="btn primary">Find trends</button>

@@ -56,17 +56,19 @@ export const useToast = () => useContext(ToastCtx)
 export function ToastProvider({ children }) {
   const [toast, setToast] = useState(null)
   const timer = useRef()
+  const start = useCallback(() => { clearTimeout(timer.current); timer.current = setTimeout(() => setToast(null), 5000) }, [])
   const show = useCallback((message, action) => {
-    clearTimeout(timer.current)
     setToast({ message, action, key: Date.now() })
-    timer.current = setTimeout(() => setToast(null), 5000)
-  }, [])
+    start()
+  }, [start])
+  // The toast stays while it is hovered or focused, so its action can be reached (2.2.1).
+  const hold = () => clearTimeout(timer.current)
   return (
     <ToastCtx.Provider value={show}>
       {children}
       <div className="toast-region" role="status" aria-live="polite">
         {toast && (
-          <div className="toast enter" key={toast.key}>
+          <div className="toast enter" key={toast.key} onMouseEnter={hold} onMouseLeave={start} onFocus={hold} onBlur={start}>
             <span>{toast.message}</span>
             {toast.action && <button type="button" onClick={() => { toast.action.run(); setToast(null) }}>{toast.action.label}</button>}
           </div>

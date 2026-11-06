@@ -112,7 +112,7 @@ export default function Editor({ isNew, trendId, id }) {
   const account = useStore((s) => s.account)
   const handoff = async () => {
     const m = account?.ai && AI_MODELS[account.ai]
-    if (!m) { toast('Choose your AI assistant first.', { label: 'Choose', run: () => navigate('/signup') }); return }
+    if (!m) { toast('Choose ChatGPT or Claude first. You can also do this from your profile.', { label: 'Choose', run: () => navigate('/signup') }); return }
     const t = trendById(plan.trendId)
     const text = `I'm an independent creator (${creator.niche}, for ${creator.audience.toLowerCase()}). I'm planning a 30-second TikTok based on the trend "${t.title}": ${t.summary}\n\nHere is my draft production plan from ShowStop:\n\n${toPlainText(plan)}\n\nPlease help me tighten the hook, suggest one stronger twist for my audience, and point out anything that would be hard to film with: ${creator.resources.join(', ')}.`
     let copied = true
@@ -258,7 +258,7 @@ export default function Editor({ isNew, trendId, id }) {
         <span className="spacer" />
         <span className={`save-state ${dirty ? 'dirty' : ''}`}>{dirty ? 'Unsaved changes' : isSaved ? 'Saved' : 'Not saved yet'}</span>
         <button type="button" ref={askBtn} className="btn sm ask-btn" aria-haspopup="dialog" aria-expanded={sheet} aria-controls="assistant" onClick={() => setSheet(true)}><span aria-hidden="true">✦</span> Ask<span className="sr-only"> ShowStop</span></button>
-        <button type="button" className="btn sm send-btn" onClick={handoff}>{account?.ai ? `Send to ${AI_MODELS[account.ai].name}` : 'Send to AI'}<span aria-hidden="true"> ↗</span><span className="sr-only">{account?.ai ? '' : ' (ChatGPT or Claude'}{account?.ai ? ' (opens in a new tab)' : ', opens in a new tab)'}</span></button>
+        <button type="button" className="btn sm send-btn" onClick={handoff}>{account?.ai ? `Send to ${AI_MODELS[account.ai].name}` : 'Send to AI'}<span aria-hidden="true"> ↗</span>{account?.ai && <span className="sr-only"> (opens in a new tab)</span>}</button>
         <button type="button" className="btn sm" onClick={copy}>Copy plan</button>
         <button type="button" className="btn primary sm" onClick={save}>Save</button>
       </div>
@@ -300,7 +300,8 @@ export default function Editor({ isNew, trendId, id }) {
           </div>
           <h1 id="plan-title" ref={headingRef} tabIndex={-1} className="sr-only">{plan.title}</h1>
           <label htmlFor="f-title" className="sr-only">Plan title</label>
-          <input id="f-title" className="title-input" value={plan.title} onChange={(e) => update({ title: e.target.value })} readOnly={mode === 'shoot'} />
+          {/* A growing one-line textarea, so long titles wrap instead of being cut off at 320 px (1.4.10). */}
+          <AutoTextarea id="f-title" className="title-input" value={plan.title} onChange={(v) => update({ title: v.replace(/\n/g, ' ') })} onKeyDown={(e) => { if (e.key === 'Enter') e.preventDefault() }} readOnly={mode === 'shoot'} />
           <p className="doc-sub">For {creator.isCustom ? 'you' : creatorById(plan.creatorId).name} · {creator.niche} · 30s · TikTok</p>
 
           <div className="timeline">

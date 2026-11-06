@@ -111,7 +111,7 @@ export default function App() {
   }, [path])
 
   useEffect(() => {
-    const titles = { landing: 'ShowStop demo', profile: 'Set up · ShowStop', home: 'Home · ShowStop', feed: 'Trends · ShowStop', detail: 'Trend · ShowStop', editor: 'Plan · ShowStop', saved: 'Saved plans · ShowStop' }
+    const titles = { landing: 'ShowStop demo', signup: 'Sign up · ShowStop', profile: 'Set up · ShowStop', home: 'Home · ShowStop', feed: 'Trends · ShowStop', detail: 'Trend · ShowStop', editor: 'Plan · ShowStop', saved: 'Saved plans · ShowStop' }
     document.title = titles[r.screen] || 'ShowStop demo'
   }, [r.screen])
 

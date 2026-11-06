@@ -45,7 +45,7 @@ function DemoReel() {
             <li key={s}><button type="button" aria-current={i === step ? 'step' : undefined} onClick={() => { setPlaying(false); setStep(i) }}><span className="reel-n" aria-hidden="true">{i + 1}</span><span className="sr-only">Step {i + 1}: </span>{s}</button></li>
           ))}
         </ol>
-        <button type="button" className="btn sm quiet" onClick={() => setPlaying((p) => !p)} aria-pressed={!playing}>{playing ? 'Pause' : 'Play'}</button>
+        <button type="button" className="btn sm quiet" onClick={() => setPlaying((p) => !p)}>{playing ? 'Pause' : 'Play'}<span className="sr-only"> walkthrough</span></button>
       </div>
       <p className="reel-caption">{CAPTIONS[step]}</p>
       <div className="reel-stage" aria-live="off">

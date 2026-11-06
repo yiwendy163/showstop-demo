@@ -660,3 +660,29 @@ h1, h2, h3, .t-display, .t-h1, .t-h2 { text-wrap: balance; }
   .editor-bar > .save-state { flex: 1 1 auto; }
   .editor-bar > .btn { flex: none; }
 }
+
+/* ===== A11y fixes (Accessibility Designer) =====
+   2026-11-06. Behaviour-only fixes; no change to the approved look at default settings.
+   1. Focus not obscured (2.4.11): keyboard focus scrolls clear of the sticky header,
+      the phone editor bar, the phone tab bar and the phone Generate panel. */
+html { scroll-padding-top: 80px; }
+@media (max-width: 900px) {
+  html { scroll-padding-bottom: 140px; } /* tab bar (50 px) plus a toast above it (to 130 px) */
+  html:has(.editor-bar) { scroll-padding-top: 200px; }
+}
+@media (max-width: 860px) { html:has(.generate-box) { scroll-padding-bottom: 236px; } }
+/* 2. Short viewports (landscape phones, 400 % zoom = 320×256): sticky and fixed bars
+      would cover most of the screen (1.4.10, 2.4.11), so they scroll with the page. */
+@media (max-height: 480px) {
+  .appbar, .editor-bar, .tabbar, .generate-box { position: static !important; transform: none !important; opacity: 1 !important; pointer-events: auto !important; }
+  html, html:has(.editor-bar), html:has(.generate-box) { scroll-padding: 0; }
+  main { padding-bottom: 24px; }
+  .detail { padding-bottom: 0; }
+}
+/* 3. Prompt example chips wrap instead of being cut off with "…" at 320 px or with
+      text-spacing overrides (1.4.10, 1.4.12). At default widths they still fit on one line. */
+.prompt-chips .chip { max-width: 100%; white-space: normal; overflow: visible; text-overflow: clip; text-align: left; }
+/* 4. The plan title is a growing textarea so a long title wraps at 320 px (1.4.10). */
+textarea.title-input { display: block; resize: none; overflow: hidden; }
+/* 5. A field with an error also gets the danger edge, not only the message below it (3.3.1 support). */
+.field [aria-invalid="true"] { border-color: var(--danger); }
